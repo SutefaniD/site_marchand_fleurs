@@ -1,0 +1,103 @@
+body {
+	background-color: rgb(244,240,236);	
+	text-align: center;
+}
+
+.menu {
+	background-color: rgb(209,249,211);
+	text-align: left;
+	margin-left: 20px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline;
+}
+
+#produits p {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	background-color: blue;
+}
+
+.photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#fleur {
+	width: 400px;
+	height: auto;
+}
+
+h1 {
+	font: 2em bold Helvetica;
+	font-weight: bold;
+}
+
+
+div, th, td {
+	font: 1em Helvetica;
+}
+
+table {
+	margin: auto;
+	width: 66%;
+	height: auto;
+	table-layout: fixed;
+	border-collapse: collapse; /* pour fusionner les bordures des cellules */
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 8px;
+	width: auto;
+}
+
+#catalogue td:first-child {
+	width: 20%;
+}
+
+#catalogue td:nth-child(3) {
+	width: 45%;
+}
+
+#recap {
+	border: 2px solid black;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: right;
+}
+
+#recap thead {
+	background-color: gray;
+}
+
+#recap th:nth-child(2),
+#recap tbody td:nth-child(2) {
+	width: 45%;
+	text-align: left;
+}
+
+#recap th:nth-child(3),
+#recap td:nth-child(3) {
+	width: 10%;
+}
+
+#recap th:nth-child(5),
+#recap td:nth-child(5) {
+	width: 20%;
+}
+
+#recap tfoot > td {
+	text-align: right;
+}

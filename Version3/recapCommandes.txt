@@ -1,0 +1,11 @@
+Vérification des données enregistrées dans la base
+******************************************************
+
+SELECT clientconnu.clt_nom, clientconnu.clt_code, commande.cde_moment, contenir.produit, 
+        produit.pdt_designation, contenir.quantite
+FROM clientconnu, commande, contenir, produit
+WHERE commande.cde_client = clientconnu.clt_code
+AND commande.cde_moment = contenir.cde_moment
+AND commande.cde_client = contenir.cde_client
+AND contenir.produit = produit.pdt_ref
+ORDER BY clientconnu.clt_nom, commande.cde_moment;
