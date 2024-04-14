@@ -1,6 +1,9 @@
 # site_marchand_fleurs
 Projet de BTS SIO
 
+![capture](https://github.com/SutefaniD/site_marchand_fleurs/assets/110696367/8d3c6c2a-4a8c-47f0-9d49-0137d9cd0ae8)
+
+
 1/ Site Web Lafleur: un catalogue de fleurs
 
 Conception du site en respectant le cahier des charges et les photos numérisées fournies
