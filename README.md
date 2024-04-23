@@ -29,9 +29,8 @@
 
    Compétences: *php, MySql, html, css*  
 
-
-
-  ![alt capture d'écran](https://github.com/SutefaniD/site_marchand_fleurs/Images/lafleur.jpg)
+\
+![alt capture d'écran](/Images/lafleur.jpg?raw=true)
 
    
 
