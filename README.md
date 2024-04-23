@@ -27,7 +27,11 @@
    - Récapitulatif des articles commandés et envoi de la commande
    - Confirmation de commande enregistrée (à l'envoi)  
 
-   Compétences: *php, MySql, html, css*
+   Compétences: *php, MySql, html, css*  
+
+
+
+  ![alt capture d'écran](https://github.com/SutefaniD/site_marchand_fleurs/Images/lafleur.jpg)
 
    
 
